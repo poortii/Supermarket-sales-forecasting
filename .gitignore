@@ -1,0 +1,27 @@
+# Ignore virtual environments
+new_env_310/
+env/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter and IPython files
+.ipynb_checkpoints
+
+# Ignore Excel backup files
+~$*
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore Streamlit generated folders
+.streamlit/
